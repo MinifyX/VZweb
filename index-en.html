@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Familie Vinzenz</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136309350-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136309350-2');
+</script>
+    </head>
+    <body>
+        <div id="scrollPath"></div>
+        <div id="progressBar"></div>
+        <div id="top">
+            <div id="logo">VZ</div>
+            <div id="logo-name">Familie Vinzenz</div>
+            <div id="navigation">
+                <a href="über-uns-en.html">About us</a>
+                <a href="Contact-en.html">Contact</a>
+                <a href="index-en.html"><img src="icons/vereinigte-staaten.png" style="height: 20px"></a>
+                <a href="index.html"><img src="icons/deutschland.png" style="height: 20px"></a>
+                <a href="index-nl.html"><img src="icons/netherlandsflag.png" style="height: 13px; margin-bottom: 3px;"></a>
+            </div>
+            <div id="image">
+                    <img src="images/topBanner.png" alt="Bild mit 4 Personen etc.">
+            </div>
+        </div>
+        <div id="main">
+            <section id="Welcome">
+                <h2>Welcome to Family Vinzenz!</h2>
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+                <p style="text-align: left;">Welcome to the homepage of family Vinzenz! This site exists since 2007! But I (Lorin) thought this page should be renewed as it was only designed simple. So I watched a tutorial on YouTube
+                    and "programmed" this webpage. I hope you'll find what you need and enjoy exploring the new page!
+                </p>
+                <p style="font-size: 7;text-align: left;">I hope you like it :D</p>
+            </section>
+            <section id="News">
+                <h2 style="text-align: center;">News</h2>
+            </section>
+            <section id="Newsimg">
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+            </section>
+            <section id="News">
+                <h3 style="color: teal;">04.11.21 New Discord-Server</h3>
+                <p style="padding-bottom: 10px;">Finally there's an actual link, that actually brings you to Lorin's Discord-Server on his page. Go check it out!</p>
+                <a style="background-color: teal; padding: 16px; margin-right: 10px; color: white; padding-bottom: 10px;" href="https://discord.gg/sMUTFbhvUd">Discord-Server</a>
+                <h3 style="color: teal;">04.11.21 RGB Scrollbar functioning again</h3>
+                <p>We fixed the new RGB Scrollbar for you so it's back in business just for you!</p>
+                <h3 style="color: teal;">08.06.21 RGB Scrollbar functioning partly</h3>
+                <p>The new RGB Scrollbar unfortunately isn't functioning quite as we intended it to be and can not be shown in some browsers!</p>
+                <h3 style="color: teal;">07.06.21 RGB Scrollbar</h3>
+                <p>All pages of our website now have a nice looking RGB Scrollbar!</p>
+                <h3 style="color: teal;">09.08.20 More languages</h3>
+                <p>Our Website is now written in german, english and netherlands!</p>
+                <h3 style="color: teal;">08.06.20 Renewed Website</h3>
+                <p>Yeah... This website was published on June 8th 2020! Have fun exploring it!</p>
+                <h3 style="color: teal;">2007 Creation of the first Website</h3>
+                <p>2007 was the year... Our own website was finally ONLINE! But it only was simply designed!</p>
+            </section>
+        </div>
+        <div id="footer">
+            © Familie Vinzenz | 2021
+        </div>
+        <div id=footbutton>
+            <a href="Impressum-en.html">Impressum</a>
+        </div>
+        <script type="text/javascript">
+            let progress = document.getElementById('progressBar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </body>
+</html>

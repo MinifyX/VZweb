@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Familie Vinzenz</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136309350-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136309350-2');
+</script>
+    </head>
+    <body>
+        <div id="scrollPath"></div>
+        <div id="progressBar"></div>
+        <div id="top">
+            <div id="logo">VZ</div>
+            <div id="logo-name">Familie Vinzenz</div>
+            <div id="navigation">
+                <a href="über-uns.html">Über Uns</a>
+                <a href="Contact.html">Kontakt</a>
+                <a href="index-en.html"><img src="icons/icon_us.png" style="width:50px"></a>
+                <a href="index.html"><img src="icons/icon_de.png" style="width:50px"></a>
+                <a href="index-nl.html"><img src="icons/icon_nl.png" style="width:50px"></a>
+            </div>
+            <div id="image">
+                    <img src="images/topBanner.png" alt="Bild mit 4 Personen etc.">
+            </div>
+        </div>
+        <div id="main">
+            <section id="Welcome">
+                <h2>Willkommen bei der Familie Vinzenz!</h2>
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+                <p style="text-align: left;">Willkommen auf der Website der Familie Vinzenz aus Willich! Diese Seite existiert nun schon seit vielen Jahren! Jedoch dachte ich (Lorin) mir, dass die Seite mal ein wenig moderner gemacht werden müsste. So hab ich mir dann kurzerhand ein Tutorial auf
+                    YouTube angeschaut und diese Website "programmiert". Ich hoffe du findest auf dieser Website alles und wünsche dir viel Spaß beim erkunden!
+                </p>
+                <p style="font-size: 7;text-align: left;">Ich hoffe sie gefällt dir :D</p>
+            </section>
+            <section id="News">
+                <h2 style="text-align: center;">Neuigkeiten</h2>
+            </section>
+            <section id="Newsimg">
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+            </section>
+            <section id="News">
+                <h3 style="color: teal;">04.11.21 Neuer Discord Server</h3>
+                <p style="padding-bottom: 10px;">Auf der Seite von Lorin wurde nun der neue Link zu seinem Discord-Server eingefügt!</p>
+                <a style="background-color: teal; padding: 16px; margin-right: 10px; color: white; padding-bottom: 10px;" href="https://discord.gg/sMUTFbhvUd">Discord-Server</a>
+                <h3 style="color: teal;">04.11.21 RGB Scrollbar wieder funktionstüchtig</h3>
+                <p>Die RGB Scrollbar ist nun wieder auf allen Seiten der Website verfügbar!</p>
+                <h3 style="color: teal;">08.06.21 RGB Scrollbar nur teilweise</h3>
+                <p>Die neue RGB Scrollbar funktioniert leider noch nicht richtig und kann möglicherweise in deinem Browser oder wegen einem anderen Grund nicht angezeigt werden. Es wird bereits an einer Lösung gearbeitet!!</p>
+                <h3 style="color: teal;">07.06.21 RGB Scrollbar</h3>
+                <p>Alle Seiten der Website gibt es nun mit einer RGB Scrollbar!</p>
+                <h3 style="color: teal;">09.08.20 Mehr Sprachen</h3>
+                <p>Unsere Website gibt es nun in Deutsch, Englisch und Niederländisch!</p>
+                <h3 style="color: teal;">08.06.20 Modernisierung der Website</h3>
+                <p>Jepp... Die Website, auf der du dich aktuell befindest, wurde erst am 08.06.2020 veröffentlicht! Also viel Spaß beim Erkunden unserer neuen Website!</p>
+                <h3 style="color: teal;">2007 Erstellung der ersten Website</h3>
+                <p>2007 war es endlich so weit... Unsere eigene Website war ONLINE! Jedoch war diese nur Simpel gestaltet, aber sie war online!</p>
+            </section>
+        </div>
+        <div id="footer">
+            © Familie Vinzenz | 2021
+        </div>
+        <div id=footbutton>
+            <a href="Impressum.html">Impressum</a>
+        </div>
+        <script type="text/javascript">
+            let progress = document.getElementById('progressBar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </body>
+</html>
