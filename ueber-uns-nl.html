@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Familie Vinzenz</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <div id="scrollPath"></div>
+        <div id="progressBar"></div>
+        <div id="top">
+            <div id="logo">VZ</div>
+            <div id="logo-name">Familie Vinzenz</div>
+            <div id="navigation">
+                <a class="navbut" href="ueber-uns.html">Wie zijn wij?</a>
+                <a class="navbut" href="Contact-nl.html">Contact</a>
+                <a class="navbut flagbut" href="ueber-uns-en.html"><img class="flagicon" src="icons/icon_us.png"></a>
+                <a class="navbut flagbut" href="ueber-uns.html"><img class="flagicon" src="icons/icon_de.png"></a>
+                <a class="navbut flagbut" href="ueber-uns-nl.html"><img class="flagicon" src="icons/icon_nl.png"></a>
+            </div>
+            <div id="image">
+                    <img src="images/aboutus.jpg" alt="Bild mit 4 Personen etc.">
+                    <p>Photo by <a href="https://unsplash.com/@solomac?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Solomon</a> on <a href="https://unsplash.com/s/photos/about-us?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+            </div>
+        </div>
+        <div id="main">
+            <section id="Inhalt">
+                <h1>Wie zijn wij?</h1>
+                <p>Hallo Wil je iets over ons weten? Kijk dan eens op onze social media pagina's! Je kunt ze vinden op Instagram etc.
+                </p>
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+                <h3>Lorin</h3>
+                <p>
+                    Hier kom je naar mijn profiel!
+                </p>
+                <a href="LorinV-nl.html" style="color: white; background-color: gray; padding: 16px;">Klik hier!</a>
+                <br><img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+                <h3>rest van de familie</h3>
+                <p>
+                    De rest van de familieleden willen niet genoemd worden ... wat jammer ...
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            © Familie Vinzenz | 2021
+        </div>
+        <div id="footbutton">
+            <a href="Impressum-nl.html">Impressum</a>
+        </div>
+        <script type="text/javascript">
+            let progress = document.getElementById('progressBar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </body>
+</html>
