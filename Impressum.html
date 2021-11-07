@@ -55,16 +55,15 @@
             </section>
         </div>
         <div id="footer">
-            © Familie Vinzenz | 2021
-        </div>
-        <div id="footbutton">
+            <p> © Familie Vinzenz | 2021 </p>
             <a href="Impressum.html">Impressum</a>
+            <p class="versiontext"> Ver 1.4_7.11.21</p>
         </div>
         <script type="text/javascript">
             let progress = document.getElementById('progressBar');
             let totalHeight = document.body.scrollHeight - window.innerHeight;
             window.onscroll = function(){
-                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                let progressHeight = (window.pageYOffset / totalHeight) * 55;
                 progress.style.height = progressHeight + "%";
             }
         </script>

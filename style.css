@@ -42,30 +42,6 @@ body {
     text-align: center;
 }
 
-#footer {
-    text-align: center;
-    padding: auto;
-    margin-top: 64px;
-    padding: 16px;
-    background-color: gray;
-    color: white;
-}
-#footbutton {
-    text-align: center;
-    background-color: gray;
-    padding-bottom: 15px;
-}
-#footbutton a {
-    color: white;
-    padding: 16px;
-    background-color: gray;
-}
-
-#footbutton a:hover {
-    color: teal;
-    font-weight: bold;
-}
-
 #LoV-uu {
     text-align: left;
     margin: auto;
@@ -85,7 +61,6 @@ body {
 }
 
 #image a:hover {
-    font-size: 15px;
     font-weight: bold;
     color: teal;
 }
@@ -109,10 +84,14 @@ body {
     color: gray;
 }
 
-#main a:hover{
-    font-size: 15px;
-    font-weight: bold;
+#main a {
     color: teal;
+    text-decoration: none;
+}
+
+#main a:hover{
+    font-weight: bold;
+    color: rgb(211, 70, 94);
 }
 
 #Newsimg {
@@ -229,4 +208,32 @@ body {
 .logo {
     color: white;
     text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+    padding: auto;
+    margin-top: 64px;
+    padding: 16px;
+    background-color: gray;
+    color: white;
+    bottom: 0;
+}
+.footbutton {
+    display: inline-block;
+    height: 2px;
+    text-align: center;
+    color: white;
+    padding-bottom: 16px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+.footbutton:hover {
+    color: teal;
+    font-weight: bold;
+}
+
+.versiontext {
+    font-size: xx-small;
 }
