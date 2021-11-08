@@ -1,3 +1,14 @@
+/*
+    Website of Familie Vinzenz
+    original URL: https://vinzenz-online.com
+    created by Lorin Vinzenz
+    Link to Profiles: https://wlo.link/@minifyx
+    GitHub: https://github.com/MinifyX
+    GitHub Repository: https://github.com/MinifyX/VZweb
+    
+    DO NOT REMOVE THIS COMMENT IF YOU WANT TO USE MY WEBSITE AS A TEMPLATE FOR YOUR'S
+**/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height:1.6em !important;
@@ -231,10 +242,11 @@ body {
 .footbutton {
     display: inline-block;
     height: 2px;
+    width: 150px;
     text-align: center;
     color: white;
-    padding-bottom: 16px;
-    background-color: gray;
+    padding-bottom: 28px;
+    background-color: rgb(77, 77, 77);
     text-decoration: none;
 }
 
