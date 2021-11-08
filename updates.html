@@ -1,0 +1,137 @@
+<!--<!DOCTYPE html> -->
+
+<html>
+    <head>
+        <title>Familie Vinzenz</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136309350-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136309350-2');
+</script>
+    </head>
+    <body>
+        <div id="scrollPath"></div>
+        <div id="progressBar"></div>
+        <div id="top">
+            <div id="logo"><a class="logo" href="index.html">VZ</a></div>
+            <div id="logo-name"><a class="logoname" href="index.html">Familie Vinzenz</a></div>
+            <div id="navigation">
+                <a class="navbut" href="ueber-uns-en.html">About us</a>
+                <a class="navbut" href="Contact-en.html">Contact</a>
+                <a class="navbut" href="updates.html">Updates</a>
+                <a class="navbut" href="index-en.html">Home</a>
+                <a class="navbut flagbut" href="updates.html"><img class="flagicon" src="icons/icon_us.png"></a>
+            </div>
+            <div id="image">
+                    <img src="images/topBanner.png">
+            </div>
+        </div>
+        <div id="main">
+            <section id="updates">
+                <h2>Version history</h2>
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+                <h3 class="newsheader">08.11.21 Update 1.5_8.11.21</h3>
+                <p>Content of Update 1.5_8.11.21 <br>
+                    ----------------------------------------------- <br>
+                    All Sites <br>
+                    + Added Button function to version number <br>
+                    + Added Updates navigation button <br>
+                    + Changed color of footbutton links <br>
+                    + Changed hover behavior of navigation <br>
+                    ----------------------------------------------- <br>
+                    Homepage <br>
+                    + Added update notes <br>
+                    ----------------------------------------------- <br>
+                    Updates Site <br>
+                    + Added a site for an update-history
+                </p>
+                <h3 class="newsheader">07.11.21 Update 1.4_7.11.21</h3>
+                <p>Content of Update 1.4_7.11.21 <br>
+                    ----------------------------------------------- <br>
+                    All Sites <br>
+                    + Fixed a problem where buttons moved the whole site <br>
+                    + Version number in footer <br>
+                    + Footer and footbutton merged <br>
+                    + Fixed RGB-Scrollbar <br>
+                    ----------------------------------------------- <br>
+                    Lorin About us Site <br>
+                    + Made Discord addin bigger</p>
+                <h3 class="newsheader">07.11.21 Update 1.3_7.11.21</h3>
+                <p>Changes of Update 1.3_7.11.21 <br>
+                    ----------------------------------------------- <br>
+                    All .html and .css <br>
+                    + Translated the "Impressum" button into the right languages <br>
+                    + Rewritten a bit to make thinner <br>
+                    + On all Pages in netherlands, the "Wie zijn wij?" button was corrected because of a typo <br>
+                    + The Title and Icon of the Website is now redirecting you to the home-page instead of doing nothing. <br>
+                    ----------------------------------------------- <br>
+                    impressum-en.html <br>
+                    + Translated into english <br>
+                    ----------------------------------------------- <br>
+                    impressum-nl.html <br>
+                    + Translated into netherlands <br>
+                    ----------------------------------------------- <br>
+                    index-en.html <br>
+                    + Added the Discord addin <br>
+                    ----------------------------------------------- <br>
+                    index-nl.html <br>
+                    +Added the Discord addin <br>
+                    ----------------------------------------------- <br>
+                    Contact.html <br>
+                    + "About us" button changed to "Über Uns" <br>
+                    ----------------------------------------------- <br>
+                    Contact-en.html <br>
+                    + "Kontakt" button changed to "Contact"</p>
+                <h3 class="newsheader">07.11.21 Update 1.2_7.11.21</h3>
+                <p>Changes of Update 1.2_7.11.21 <br>
+                    ----------------------------------------------- <br>
+                    All .html <br>
+                    + Added Home button <br>
+                    - Renamed some navigation buttons, because they were translated incorrectly <br>
+                    ----------------------------------------------- <br>
+                    index.html <br>
+                    - Resized text, which was too small in Ver.1.1_6.11.21</p>
+                <h3 class="newsheader">06.11.21 Update 1.1_6.11.21</h3>
+                <p>Changes of Update 1.1_6.11.21 <br>
+                    ----------------------------------------------- <br>
+                    All .html <br>
+                    - Removed old navigation <br>
+                    + Added New class based navigation <br>
+                    + Changed flag icons to new flag icons <br>
+                    ----------------------------------------------- <br>
+                    Über-Uns Sites <br>
+                    + Renamed because of the "Ü" <br>
+                    ----------------------------------------------- <br>
+                    Issues <br>
+                    - Fixed an issue where language icons won't load</p>
+                <h3 class="newsheader">Update 1.0</h3>
+                <p>
+                    index.html <br>
+                    - Merged "footer" and "footbutton"
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            <p> © Familie Vinzenz | 2021 </p>
+            <a href="Impressum.html">Impressum</a> <br>
+            <a class="versiontext" href="updates.html">Ver 1.5_8.11.21</a>
+        </div>
+        <script type="text/javascript">
+            let progress = document.getElementById('progressBar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 80;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </body>
+</html>
