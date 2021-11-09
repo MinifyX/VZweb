@@ -51,7 +51,6 @@ body {
 #main {
     max-width: 800px;
     margin: 25px;
-    text-align: center;
 }
 #Welcome {
     text-align: center;
@@ -291,18 +290,4 @@ body {
     height: 10px;
     background-image: white;
     padding: 16px;
-}
-
-@media (min-width: 1px) {
-    .logoname {
-        word-break: break-all;
-        font-size: large;
-    }
-}
-
-@media (min-width: 50em) {
-    .logoname {
-        word-break: break-all;
-        font-size: larger;
-    }
 }
