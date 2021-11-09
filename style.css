@@ -51,6 +51,7 @@ body {
 #main {
     max-width: 800px;
     margin: 25px;
+    text-align: center;
 }
 #Welcome {
     text-align: center;
