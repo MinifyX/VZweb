@@ -287,8 +287,11 @@ body {
 
 .socialmedialink {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 32px;
+    height: 32px;
+    image-resolution: 512px;
+    resize: both;
+    block-size: auto;
     background-image: white;
     padding: 16px;
 }
