@@ -50,7 +50,8 @@ body {
 
 #main {
     max-width: 800px;
-    margin: 25px;
+    padding: 25px;
+    margin: auto;
 }
 #Welcome {
     text-align: center;
