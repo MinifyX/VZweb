@@ -180,6 +180,15 @@ body {
     text-align: center;
 }
 
+.navbutnl {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
 .flagbut {
     width: 20px;
     background-image: white;
@@ -294,4 +303,13 @@ body {
     block-size: auto;
     background-image: white;
     padding: 16px;
+}
+
+.abtrenner img{
+    margin: auto;
+    text-align: center;
+}
+
+#Abtrenner {
+    text-align: center;
 }
