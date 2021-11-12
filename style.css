@@ -100,7 +100,7 @@ body {
 }
 
 #main a {
-    color: teal;
+    color: turquoise;
     text-decoration: none;
 }
 
@@ -289,11 +289,6 @@ body {
     transition: all ease-in-out 0.3s;
 }
 
-#main a {
-    color: white;
-    text-decoration: none;
-}
-
 .socialmedialink {
     display: inline-block;
     width: 32px;
@@ -312,4 +307,17 @@ body {
 
 #Abtrenner {
     text-align: center;
+}
+
+#ImpressumDetail {
+    color: black;
+    background-color: whitesmoke;
+}
+
+#ImpressumDetail a {
+    color: black
+}
+
+#ImpressumDetail a :hover {
+    color: teal
 }
