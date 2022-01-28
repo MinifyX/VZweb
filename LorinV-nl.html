@@ -14,7 +14,7 @@
 <html>
     <head>
         <title>Familie Vinzenz</title>
-        <html lang="nl-nl"></html>
+        <html lang="nl-NL"></html>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Dit is Lorin's pagina op de homepage van de familie Vinzenz"/>
@@ -57,6 +57,22 @@
             <h2>Lorin Vinzenz</h2>
             <img src="images/LorinProfile.JPG" alt="No alt text">
             <p style="color: gray; margin-top: 0px; font-size: 10px;">Photo by <a href="https://wlo.link/@minifyx" style="color: gray;">Lorin Vinzenz</a></p>
+            <h2>Live (REC)</h2>
+            <p>Als Lorin / MinifyX live is, verschijnt de stream hier!</p>
+            <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="PlayerTwitch1"></div>
+<script type="text/javascript">
+  var options = {
+    width: "100%",
+    height: 480,
+    channel: "minifyx_",
+    // Only needed if this page is going to be embedded on other websites
+    parent: ["embed.example.com", "othersite.example.com"]
+  };
+  var player = new Twitch.Player("PlayerTwitch1", options);
+  player.setVolume(0.5);
+  autoplay = true;
+</script>
             <h2>Over mij</h2>
             <p>Hallo Mijn naam is Lorin Vinzenz! Ik ben degene die deze website heeft gemaakt/geprogrammeerd! Vind je haar leuk?
                 Nou... Eigenlijk ben ik bekend onder de naam "MinifyX" en heb inmiddels meer dan 130 abonnees op YouTube!

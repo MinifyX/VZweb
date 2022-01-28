@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!--
+    Website of Familie Vinzenz
+    original URL: https://vinzenz-online.com
+    created by Lorin Vinzenz
+    Link to Profiles: https://wlo.link/@minifyx
+    GitHub: https://github.com/MinifyX
+    GitHub Repository: https://github.com/MinifyX/VZweb
+    
+    DO NOT REMOVE THIS COMMENT IF YOU WANT TO USE MY WEBSITE AS A TEMPLATE FOR YOUR'S
+-->
+
+<html>
+    <head>
+        <title>Familie Vinzenz</title>
+        <html lang="de-de"></html>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Dies ist die Homepage der Familie Vinzenz" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png" />
+        <meta charset="utf-8" >
+    <!-- THIS TAG IS FOR GOOGLE ANALYTICS!!! PLEASE USE YOUR OWN! -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136309350-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-136309350-2');
+        </script>
+    <!-- GOOGLE ANALYTICS SCRIPT END-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6145399064402568"
+    crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="scrollPath"></div>
+        <div id="progressBar"></div>
+        <div id="top">
+            <div id="logo"><a class="logo" href="index.html">VZ</a></div>
+            <div id="logo-name"><a class="logoname" href="index.html"><h1>Vinzenz-Online</h1></a></div>
+            <div id="navigation">
+                <a class="navbut" href="ueber-uns.html">Über Uns</a>
+                <a class="navbut" href="Contact.html">Kontakt</a>
+                <a class="navbut" href="updates.html">Updates</a>
+                <a class="navbut" href="index.html">Home</a>
+                <a class="navbut flagbut" href="index-en.html"><img class="flagicon" src="icons/icon_us.png"></a>
+                <a class="navbut flagbut" href="index.html"><img class="flagicon" src="icons/icon_de.png"></a>
+                <a class="navbut flagbut" href="index-nl.html"><img class="flagicon" src="icons/icon_nl.png"></a>
+            </div>
+            <div id="image">
+                    <img src="images/topBanner.png">
+                    <p style="color: gray; margin-top: 0px; font-size: 10px;">Photo by <a href="https://wlo.link/@minifyx" style="color: gray;">Lorin Vinzenz</a></p>
+            </div>
+        </div>
+        <div id="main">
+            <section id="Welcome">
+                <h2>Feedback!</h2>
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+                <p style="text-align: left;">Willkommen auf der Website der Familie Vinzenz aus Willich! Diese Seite existiert nun schon seit vielen Jahren! Jedoch dachte ich (Lorin) mir, dass die Seite mal ein wenig moderner gemacht werden müsste. So hab ich mir dann kurzerhand ein Tutorial auf
+                    YouTube angeschaut und diese Website "programmiert". Ich hoffe du findest auf dieser Website alles und wünsche dir viel Spaß beim erkunden! <br>
+                    Ich hoffe sie gefällt dir :D
+                </p>
+            </section>
+            <section id="NewsUeberschrift">
+                <h2 style="text-align: center;">Neuigkeiten</h2>
+            </section>
+            <section id="Newsimg">
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+            </section>
+            <section id="News">
+                <h3 class="newsheader">Feedback</h3>
+                <p> Hier kannst du dein Feedback mit uns teilen!</p>
+            </section>
+        </div>
+        <div id="footer">
+            <p> © Familie Vinzenz | 2021 </p>
+            <a class="footbutton" href="Impressum.html">Impressum</a>
+            <a class="footbutton" href="https://github.com/MinifyX/VZweb/issues/new/choose">Feedback</a> <br>
+            <a class="versiontext" href="updates.html">Ver 2.4_11.11.21</a>
+        </div>
+        <script type="text/javascript">
+            let progress = document.getElementById('progressBar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 80;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </body>
+</html>

@@ -14,7 +14,7 @@
 <html>
     <head>
         <title>Familie Vinzenz</title>
-        <html lang="nl-nl"></html>
+        <html lang="nl-NL"></html>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Dit is de homepage van de familie Vinzenz" />
@@ -64,6 +64,27 @@
             </section>
             <section id="News">
                 <h2 style="text-align: center;">nieuws</h2>
+            </section>
+            <section id="Newsimg">
+                <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
+            </section>
+            <section id="News">
+                <h3>LIVE STREAMS</h3>
+                <p>Als Lorin / MinifyX live is, verschijnt de stream hier!</p>
+                <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="PlayerTwitch1"></div>
+<script type="text/javascript">
+  var options = {
+    width: "100%",
+    height: 480,
+    channel: "minifyx_",
+    // Only needed if this page is going to be embedded on other websites
+    parent: ["embed.example.com", "othersite.example.com"]
+  };
+  var player = new Twitch.Player("PlayerTwitch1", options);
+  player.setVolume(0.5);
+  autoplay = true;
+</script>
             </section>
             <section id="Newsimg">
                 <img src="images/Abtrenner.jpg" alt="Abtrenner" style="max-width: 100%;">
